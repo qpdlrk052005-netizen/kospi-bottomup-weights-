@@ -1,0 +1,20 @@
+# data and outputs are not committed (licensed or large; rebuild with the scripts)
+raw_marcap/
+panel/
+daily_dataset/
+rev4/data/
+rev4/results/
+results_daily_2015/
+kosdaq/
+*.parquet
+*.npz
+*.zip
+# keys and secrets: never commit
+key.txt
+*keys*.txt
+.env
+# environment and caches
+.venv/
+__pycache__/
+*.pyc
+*.log

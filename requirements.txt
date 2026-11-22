@@ -1,0 +1,11 @@
+# Python 3.12
+numpy==2.3.5
+pandas==2.2.3
+scipy==1.17.0
+pyarrow==26.0.1
+lightgbm==4.7.0
+pykrx==1.2.9          # KRX investor flows (needs a KRX login)
+yfinance==1.8.0       # US market data
+truststore==0.10.5    # Windows certificate store for KRX TLS
+# PyTorch with CUDA 12.8 (tested 2.8.0+cu128 on an RTX 3050 4GB):
+#   pip install torch==2.8.0 --index-url https://download.pytorch.org/whl/cu128
